@@ -1,23 +1,51 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tooltip Love</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  <div class="tooltip-container" id="tooltipBox">
-    <span class="tooltip">
-      لَو كانَ الحُب كَلمات تُكْتَبُ،<br>
-      لأنْهَيتُ أقْلامي<br>
-      لَكن الحُبّ أرْواحُ،<br><br>
-      فَهَل تَكفيكِ رُوحي ؟
-    </span>
-    <span class="text">!</span>
-  </div>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Valentine Confession</title>
+    </head>
+    <body>
+        <p class="instruction">Click the heart! انقر على القلب! ❤️</p>
+        <div class="container">
+            <label>
+            <div class="heart">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg" alt="Heart Icon"></img>
+            </div>
+            <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            
+            <div class="message closed no-anim">
+                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Dear Crush,</h1>
+                <p> 
+                    <span>
+                        &emsp; لَو كانَ الحُب كَلمات تُكْتَبُ
+                      <br> لأنْهَيتُ أقْلامي
+                      <br> لكنَ الحُبّ أرواحُ
+                      <br> …
+                      <br> فَهَل تكفيكِ رُوحي ؟
+                    </span>
+                    <br> <br>
+                    <span>
 
-  <script src="script.js"></script>
-</body>
+                    </span>      
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;">
+                     
+                    </p>
+                    <p>-</p>
+                 </div>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
 </html>
