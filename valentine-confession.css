@@ -58,7 +58,7 @@ body {
 	padding: 25px;
 	background-color: #eee;
 	font-size: clamp(16px, 10vw, 17px);
-	text-align: justify;
+	text-align: center;
 	line-height: 1.5em;
 	width: 80%;
 	max-width: 550px;
